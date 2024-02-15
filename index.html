@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Planning Tool MVP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="map"></div>
+    <input type="text" id="addressInput" placeholder="Enter address">
+    <button onclick="addLocation()">Add Location</button>
+    <button onclick="planRoute()">Plan Route</button>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=(API_KEY)&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
