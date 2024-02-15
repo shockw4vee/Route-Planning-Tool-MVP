@@ -1,8 +1,10 @@
 Route Planning Tool MVP 
 
-Please use your own Google maps api key in file "index.html" at location : <script src="https://maps.googleapis.com/maps/api/js?key=(API_KEY)&callback=initMap" async defer></script>
+Please use your own Google maps API key at (API_KEY) in index.html at location :
+<script src="https://maps.googleapis.com/maps/api/js?key=(API_KEY)&callback=initMap" async defer></script>
 
-Install these dependencies: 
+Install these dependencies:
+npm install 
 npm install sqlite3
 npm install express
 
